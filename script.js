@@ -2,7 +2,7 @@
 (function myFunction1(){ 
     const frst = document.getElementById('first');
     frst.addEventListener('mouseover',function(){ 
-        document.getElementById('sppp').src = "images.png";
+        document.getElementById('sppp').src = "images2.png";
         document.getElementById('txt').innerText= "first Speacker's name";
         document.getElementById('textname').innerText= "first Speaker's name";
     });
@@ -27,7 +27,15 @@
     });
    
 })();
-
+(function myFunction4(){ 
+    const thrd = document.getElementById('fourth');
+    thrd.addEventListener('mouseover',function(){ 
+        document.getElementById('sppp').src = "images1.png";
+        document.getElementById('txt').innerText= "fourth Speacker's name";
+        document.getElementById('textname').innerText= "fourth Speaker's name";   
+    });
+   
+})();
 
 (function () {
     const second = 1000,

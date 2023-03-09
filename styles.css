@@ -252,23 +252,27 @@ li span {
   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,9,1) 100%, rgba(0,212,255,1) 100%);  */ 
    text-align: center;
     color: black;
+    padding: 5%;
 }
 p{
     font-size: .5em;
 }
 img{
     width: 55%;
-    margin-top: 7%;
-    margin-bottom: 2%;
 }
 .TheAgenda > h1 { 
-    font-size: 2em;
+  color: #00142e;
+  font-size: 3rem;
+  font-weight: bold; 
 }
 .row{
     margin-top: 50px;
 }
 #spk > h1{ 
     font-size: 1.5em;
+    padding: 2%;
+    margin-top: 3%;
+    text-decoration: underline;
 }
 #spk2 > h1{ 
     font-size: 1.5em;
@@ -282,7 +286,7 @@ img{
         width: 100%;
     }
     img{
-        width: 30%;
+        width: 50%;
         margin: 0%;
     }
 
@@ -305,19 +309,20 @@ img{
   margin-bottom: 4%;
   font-weight: bold; 
 }
+/*
 #cloud { 
     width: 60%;  
     margin-top: 2%;
 }
 #itc { 
     width: 60%;
-}
+}*/
 #github { 
     width: 55%;
-}
+}/*
 #colla { 
     width: 55%;
-}
+}*/
 
 @media only screen and (min-width: 600px) {
   #sponsoring{ 
